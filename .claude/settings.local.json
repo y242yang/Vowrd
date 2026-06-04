@@ -9,7 +9,9 @@
       "Bash(python3 *)",
       "Bash(sips *)",
       "WebFetch(domain:annyimingyang.com)",
-      "Bash(pkill -f \"next dev\")"
+      "Bash(pkill -f \"next dev\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
