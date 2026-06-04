@@ -38,8 +38,8 @@ export default function Hero() {
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-24">
-        <h1 className="text-6xl md:text-8xl font-bold leading-tight tracking-tight max-w-5xl">
-          Software For<br /><span className="pl-96">Everyday Life</span>
+        <h1 className="text-5xl md:text-8xl font-bold leading-tight tracking-tight max-w-5xl">
+          Software For<br /><span className="md:pl-96">Everyday Life</span>
         </h1>
         <div className="mt-10 flex items-center gap-4">
           <a

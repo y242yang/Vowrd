@@ -11,7 +11,18 @@
       "WebFetch(domain:annyimingyang.com)",
       "Bash(pkill -f \"next dev\")",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(dig vowrd.com A +short)",
+      "Bash(dig www.vowrd.com CNAME +short)",
+      "Bash(dig vowrd.com CNAME +short)",
+      "Bash(curl -sI https://vowrd.com)",
+      "Bash(curl -sI https://www.vowrd.com)",
+      "Bash(sudo dscacheutil -flushcache)",
+      "Bash(sudo killall -HUP mDNSResponder)",
+      "Bash(dig @8.8.8.8 www.vowrd.com A +short)",
+      "Bash(dig @1.1.1.1 www.vowrd.com A +short)",
+      "Bash(curl -sL https://www.vowrd.com)"
     ]
   }
 }
