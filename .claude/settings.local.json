@@ -22,7 +22,9 @@
       "Bash(sudo killall -HUP mDNSResponder)",
       "Bash(dig @8.8.8.8 www.vowrd.com A +short)",
       "Bash(dig @1.1.1.1 www.vowrd.com A +short)",
-      "Bash(curl -sL https://www.vowrd.com)"
+      "Bash(curl -sL https://www.vowrd.com)",
+      "Bash(cp ~/Projects/EasyOut/assets/images/icon.png ~/Projects/Vowrd/public/easyout-icon.png)",
+      "Bash(cp ~/Projects/rep-pilot/RepPilot/Assets.xcassets/AppIcon.appiconset/AppIcon.png ~/Projects/Vowrd/public/repilot-icon.png)"
     ]
   }
 }
