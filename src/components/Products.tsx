@@ -13,6 +13,12 @@ const am = [
     icon: <Image src="/repilot-icon.png" alt="Repilot" width={48} height={48} className="rounded-xl" />,
     href: "#",
   },
+  {
+    name: "Dance",
+    tagline: "Find dance classes and studios\nnear you.",
+    icon: <Image src="/dance-icon.png" alt="Dance" width={48} height={48} className="rounded-xl" />,
+    href: "#",
+  },
 ];
 
 const pm = [
