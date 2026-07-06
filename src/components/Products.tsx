@@ -11,7 +11,7 @@ const am = [
     name: "Repilot",
     tagline: "Your workout log and coach.",
     icon: <Image src="/repilot-icon.png" alt="Repilot" width={48} height={48} className="rounded-xl" />,
-    href: "#",
+    href: "https://apps.apple.com/us/app/repilot/id6775357927",
   },
   {
     name: "Dance",
@@ -23,10 +23,10 @@ const am = [
 
 const pm = [
   {
-    name: "Coming Soon",
-    tagline: "Great things\nare on the way.",
-    icon: null,
-    href: null,
+    name: "Become: Habit Builder",
+    tagline: "Build habits that stick.\nBecome who you want to be.",
+    icon: <Image src="/become-icon.png" alt="Become" width={48} height={48} className="rounded-xl" />,
+    href: "#",
   },
 ];
 
