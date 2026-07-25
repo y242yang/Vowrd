@@ -129,7 +129,7 @@ export const products: Product[] = [
   },
   {
     slug: "become",
-    name: "Become: Habit Builder",
+    name: "Become: Vision to Day",
     tagline: "Build habits that stick.\nBecome who you want to be.",
     description:
       "Become is a habit builder designed to help things actually stick. Set the identity you're building toward, like Disciplined or Strong, and let routines, weekly commitments, and monthly themes flow from there. Track streaks day by day, then zoom out to a full year to see the arc, one small win at a time.",

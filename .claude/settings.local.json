@@ -25,7 +25,8 @@
       "Bash(curl -sL https://www.vowrd.com)",
       "Bash(cp ~/Projects/EasyOut/assets/images/icon.png ~/Projects/Vowrd/public/easyout-icon.png)",
       "Bash(cp ~/Projects/rep-pilot/RepPilot/Assets.xcassets/AppIcon.appiconset/AppIcon.png ~/Projects/Vowrd/public/repilot-icon.png)",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Read(//Users/annyang/Projects/habit/**)"
     ]
   }
 }
