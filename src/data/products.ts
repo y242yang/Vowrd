@@ -110,9 +110,31 @@ export const products: Product[] = [
     name: "Become: Habit Builder",
     tagline: "Build habits that stick.\nBecome who you want to be.",
     description:
-      "Become is a habit builder designed to help things actually stick. Set the habits that matter, track them daily, and build the identity you're working toward, one small win at a time.",
+      "Become is a habit builder designed to help things actually stick. Set the identity you're building toward, like Disciplined or Strong, and let routines, weekly commitments, and monthly themes flow from there. Track streaks day by day, then zoom out to a full year to see the arc, one small win at a time.",
     icon: "/become-icon.png",
     status: "coming-soon",
     group: "pm",
+    features: [
+      {
+        icon: "target",
+        title: "Built around who you're becoming",
+        description: "Set identities like Disciplined or Strong, then let a monthly theme and its goals flow from there.",
+      },
+      {
+        icon: "calendar",
+        title: "Routines that fit your week",
+        description: "Build routines with daily or weekly recurrence and a day picker, and add them straight to your calendar.",
+      },
+      {
+        icon: "chart",
+        title: "Zoom from a day to a year",
+        description: "Move between Week, Month, and Year views, with a full month grid and a 12-month view to see the whole arc.",
+      },
+      {
+        icon: "trophy",
+        title: "Streaks and a year-end recap",
+        description: "Track your current and longest streaks, see your best and toughest months, and export a full month as a shareable PDF.",
+      },
+    ],
   },
 ];
