@@ -86,6 +86,15 @@ function UsersIcon() {
   );
 }
 
+function ReceiptIcon() {
+  return (
+    <svg viewBox="0 0 24 24" {...strokeProps}>
+      <rect x="5" y="3" width="14" height="18" rx="2" />
+      <path d="M9 8h6M9 12h6M9 16h4" />
+    </svg>
+  );
+}
+
 function CalendarIcon() {
   return (
     <svg viewBox="0 0 24 24" {...strokeProps}>
@@ -107,6 +116,7 @@ const icons: Record<FeatureIcon, () => React.ReactNode> = {
   search: SearchIcon,
   users: UsersIcon,
   calendar: CalendarIcon,
+  receipt: ReceiptIcon,
 };
 
 export default function FeatureIconBadge({ icon }: { icon: FeatureIcon }) {

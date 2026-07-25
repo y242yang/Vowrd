@@ -1,4 +1,4 @@
-export type FeatureIcon = "watch" | "heart" | "trophy" | "chart" | "share" | "target" | "search" | "users" | "calendar";
+export type FeatureIcon = "watch" | "heart" | "trophy" | "chart" | "share" | "target" | "search" | "users" | "calendar" | "receipt";
 
 export type Feature = {
   icon: FeatureIcon;
@@ -24,10 +24,32 @@ export const products: Product[] = [
     name: "EasyOut",
     tagline: "Split expenses and plan trips.\nNo awkward 'you owe me' texts.",
     description:
-      "EasyOut takes the friction out of splitting costs with friends. Track shared expenses as they happen, plan trips together, and settle up automatically. No more awkward \"you owe me\" texts or spreadsheets nobody updates.",
+      "EasyOut takes the friction out of tracking shared costs with friends. Create a group, add anyone by name with no account needed, and log expenses with exactly who paid and who's splitting it. Plan the whole trip alongside it, with flights, hotel rooms, a day-by-day itinerary, and a wish list you vote on together. Everything updates for the whole group in real time.",
     icon: "/easyout-logo.png",
     status: "coming-soon",
     group: "am",
+    features: [
+      {
+        icon: "users",
+        title: "No accounts required",
+        description: "Add members by name only. Nobody needs to download EasyOut or sign up to be in your group.",
+      },
+      {
+        icon: "receipt",
+        title: "Log expenses your way",
+        description: "Categorize each expense, pick who paid, and choose exactly who splits it, with totals that update for everyone in real time.",
+      },
+      {
+        icon: "calendar",
+        title: "Plan the whole trip",
+        description: "Build a day-by-day itinerary, and track flights and hotel rooms by member.",
+      },
+      {
+        icon: "heart",
+        title: "Decide together",
+        description: "Build a shared wish list for the trip and vote on what makes the cut.",
+      },
+    ],
   },
   {
     slug: "repilot",
