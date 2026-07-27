@@ -106,6 +106,27 @@ function CalendarIcon() {
   );
 }
 
+function CameraIcon() {
+  return (
+    <svg viewBox="0 0 24 24" {...strokeProps}>
+      <path d="M4 8a2 2 0 0 1 2-2h1.2l.9-1.5a1 1 0 0 1 .86-.5h6.08a1 1 0 0 1 .86.5L16.8 6H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
+      <circle cx="12" cy="13" r="3.5" />
+    </svg>
+  );
+}
+
+function ScaleIcon() {
+  return (
+    <svg viewBox="0 0 24 24" {...strokeProps}>
+      <path d="M12 3v18" />
+      <path d="M8 21h8" />
+      <path d="M5 7h14" />
+      <path d="M5 7l-3 6a3 3 0 0 0 6 0z" />
+      <path d="M19 7l-3 6a3 3 0 0 0 6 0z" />
+    </svg>
+  );
+}
+
 const icons: Record<FeatureIcon, () => React.ReactNode> = {
   watch: WatchIcon,
   heart: HeartIcon,
@@ -117,6 +138,8 @@ const icons: Record<FeatureIcon, () => React.ReactNode> = {
   users: UsersIcon,
   calendar: CalendarIcon,
   receipt: ReceiptIcon,
+  camera: CameraIcon,
+  scale: ScaleIcon,
 };
 
 export default function FeatureIconBadge({ icon }: { icon: FeatureIcon }) {

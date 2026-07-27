@@ -1,4 +1,4 @@
-export type FeatureIcon = "watch" | "heart" | "trophy" | "chart" | "share" | "target" | "search" | "users" | "calendar" | "receipt";
+export type FeatureIcon = "watch" | "heart" | "trophy" | "chart" | "share" | "target" | "search" | "users" | "calendar" | "receipt" | "camera" | "scale";
 
 export type Feature = {
   icon: FeatureIcon;
@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: "EasyOut",
     tagline: "Split expenses and plan trips.\nNo awkward 'you owe me' texts.",
     description:
-      "EasyOut takes the friction out of tracking shared costs with friends. Create a group, add anyone by name with no account needed, and log expenses with exactly who paid and who's splitting it. Plan the whole trip alongside it, with flights, hotel rooms, a day-by-day itinerary, and a wish list you vote on together. Everything updates for the whole group in real time.",
+      "EasyOut takes the friction out of tracking shared costs with friends. Create a group, add anyone by name with no account needed, and log expenses with exactly who paid and who's splitting it, or just snap a photo of the receipt and let EasyOut read the items for you. See who owes who at a glance and settle up in the fewest payments possible. Plan the whole trip alongside it, with flights, hotel rooms, a day-by-day itinerary, and a wish list you vote on together. Everything updates for the whole group in real time.",
     icon: "/easyout-logo.png",
     status: "coming-soon",
     group: "am",
@@ -35,9 +35,19 @@ export const products: Product[] = [
         description: "Add members by name only. Nobody needs to download EasyOut or sign up to be in your group.",
       },
       {
+        icon: "camera",
+        title: "Scan a receipt",
+        description: "Snap a photo and EasyOut reads the line items automatically. Tap who had what, and tax and tip split the same way.",
+      },
+      {
         icon: "receipt",
         title: "Log expenses your way",
         description: "Categorize each expense, pick who paid, and choose exactly who splits it, with totals that update for everyone in real time.",
+      },
+      {
+        icon: "scale",
+        title: "Settle up in fewer payments",
+        description: "See exactly where everyone stands, then settle up with the smallest number of payments possible.",
       },
       {
         icon: "calendar",

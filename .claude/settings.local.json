@@ -26,7 +26,11 @@
       "Bash(cp ~/Projects/EasyOut/assets/images/icon.png ~/Projects/Vowrd/public/easyout-icon.png)",
       "Bash(cp ~/Projects/rep-pilot/RepPilot/Assets.xcassets/AppIcon.appiconset/AppIcon.png ~/Projects/Vowrd/public/repilot-icon.png)",
       "Bash(git *)",
-      "Read(//Users/annyang/Projects/habit/**)"
+      "Read(//Users/annyang/Projects/habit/**)",
+      "Read(//Users/annyang/Projects/**)",
+      "Read(//Users/annyang/Projects/EasyOut/**)",
+      "Bash(npx tsc *)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN -t)"
     ]
   }
 }
