@@ -169,4 +169,36 @@ export const products: Product[] = [
       },
     ],
   },
+  {
+    slug: "multiplier",
+    name: "Multiplier",
+    tagline: "Understand your financial situation.\nBe your own wealth advisor.",
+    description:
+      "Multiplier is a local-only personal finance desktop app for the Mac, built so you can actually understand where your money goes and where you stand, without another advisor or subscription in the middle. Add every account, checking, savings, credit cards, brokerage, 401(k), IRA, HSA, and more, import transactions straight from a CSV, and let auto-categorization sort spending as it comes in. Track assets and liabilities that live outside your bank, like a house or a car, and generate a balance sheet for any month or compare several side by side to watch your net worth move. Everything is encrypted and stored only on your Mac. No accounts, no cloud, no network calls, ever.",
+    icon: "/multiplier-icon.png",
+    status: "coming-soon",
+    group: "pm",
+    features: [
+      {
+        icon: "receipt",
+        title: "Import and auto-categorize",
+        description: "Drop in a CSV from any bank or card. Multiplier detects the columns, catches duplicates on re-import, and sorts spending into categories automatically.",
+      },
+      {
+        icon: "chart",
+        title: "Every account in one place",
+        description: "Track checking, savings, credit cards, brokerage, 401(k), IRA, HSA, and more, alongside assets and liabilities that aren't tied to a financial institution, like a house or a car.",
+      },
+      {
+        icon: "scale",
+        title: "See your net worth",
+        description: "Generate a balance sheet for any month or compare up to five months side by side to watch assets and liabilities move over time.",
+      },
+      {
+        icon: "search",
+        title: "Spot the trends",
+        description: "Pie and line charts break down spending by category, track investment balances, and chart income against expenses month over month.",
+      },
+    ],
+  },
 ];
