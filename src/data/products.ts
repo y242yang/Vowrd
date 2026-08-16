@@ -26,7 +26,8 @@ export const products: Product[] = [
     description:
       "EasyOut takes the friction out of tracking shared costs with friends. Create a group, add anyone by name with no account needed, and log expenses with exactly who paid and who's splitting it, or just snap a photo of the receipt and let EasyOut read the items for you. See who owes who at a glance and settle up in the fewest payments possible. Plan the whole trip alongside it, with flights, hotel rooms, a day-by-day itinerary, and a wish list you vote on together. Everything updates for the whole group in real time.",
     icon: "/easyout-logo.png",
-    status: "coming-soon",
+    status: "live",
+    storeUrl: "https://apps.apple.com/us/app/easyout-split-settle/id6795012083",
     group: "am",
     features: [
       {
@@ -144,7 +145,8 @@ export const products: Product[] = [
     description:
       "Become is a habit builder designed to help things actually stick. Set the identity you're building toward, like Disciplined or Strong, and let routines, weekly commitments, and monthly themes flow from there. Track streaks day by day, then zoom out to a full year to see the arc, one small win at a time.",
     icon: "/become-icon.png",
-    status: "coming-soon",
+    status: "live",
+    storeUrl: "https://apps.apple.com/us/app/become-vision-to-day/id6794722613",
     group: "pm",
     features: [
       {
